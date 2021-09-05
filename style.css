@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(bg.jpg);
+}
+.search {
+  /* background: url("loupe.png"); */
+  height: 20px;
+  text-decoration: bold;
+}
+button {
+  background-color: rgb(122, 71, 71);
+  opacity: 0.9;
+  padding: 15px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  outline: 0;
+  /* border-width: 0 0 2px; */
+  border-bottom-color: blue;
+  height: 50px;
+  /* max-width: 100%; */
+  max-width: 240px;
+  width: 200px;
+  color: black;
+  outline: 0;
+  border: none;
+  border-bottom-style: groove;
+  margin-left: 10px;
+  opacity: 0.5;
+}
+input:focus {
+  border-color: green;
+}
+.logo {
+  margin: 20px 20px;
+}
+.weather-det {
+  margin-right: 15px;
+}
+hr {
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.city {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 15px;
+}
+
+td {
+  padding: 15px 15px 20px;
+}
+
+.last-p {
+  margin-top: 15px;
+}
+.cont-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.temp {
+  margin-left: 40px;
+  display: flex;
+}
+.c-temp {
+  font-size: 60px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.city-lon {
+  font-size: 40px;
+  opacity: 0.7;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 12px;
+
+  flex-flow: wrap column;
+}
+.cloud {
+  max-width: 40px;
+  margin: 0px;
+  /* align-items: center; */
+}
+.cty-dat {
+  display: flex;
+  flex-direction: column;
+}
+.time {
+  margin-left: 25px;
+  margin-right: 15px;
+}
+.cont-right {
+  background: url(right.jpg);
+  color: gray;
+  opacity: 0.8;
+  width: 35%;
+}
+h1,
+h3 {
+  color: white;
+  margin: 10px;
+  font-size: large;
+}
+.li-last {
+  padding-bottom: 35px;
+}
+table {
+  width: 100%;
+}
+.val {
+  text-align: right;
+}

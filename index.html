@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="outline">
+        <div class="container">
+            <div class="cont-left" style="margin: 60px;">
+                <p class="logo">the.weather</p>
+                <div class="temp"><p class=c-temp>22°</p>
+                <div class="cty-dat"><p class="city-lon" style="font-family: 'Roboto', sans-serif;">London</p>
+                <p class="time">21:49 - Sunday, 5 Sep '21</p></div>
+                <div class="cit-det">
+                
+                <img src="cloud.png" class="cloud" alt="cloud-pic">
+                <p class="status">Cloudy</p></div>
+                </div>
+            </div>
+
+            <div class="cont-right">
+                <div class="search-box">
+                    <input type="search" placeholder="Another Location" id="">
+                    <button ><img class="search" src="loupe.png" alt="SEARCH"></button>
+                </div>
+                <div class="location">
+                    <h4 class="city">Birmingham</h4><br>
+                    <h4 class="city">Manchester</h4><br>
+                    <h4 class="city">New York</h4><br>
+                    <h4 class="city">California</h4>
+                </div>
+                <hr>
+                <div class="weather-det">
+                    <h1 style="color: white;">Weather Details</h1>
+                    <table class="wet-det">
+                        <tr>
+                            <td>
+                                Cloudy
+                            </td>
+                            <td class="val">60%</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Humidity
+                            </td>
+                            <td class="val">65%</td>
+                        </tr>
+                        <tr>
+                            <td>Wind</td>
+                            <td class="val">6km/h</td>
+                        </tr>
+                    </table>
+                </div>
+                <hr>
+                <h1 class="last-p" style="color: white;">Next Days</h1>
+                <ul>
+                    <br>
+                    <li>Monday  15°C / 19°C</li>
+                    <br>
+                    <li>Tuesday 14°C / 18°C</li>
+                    <br>
+                    <li class="li-last">Wednesday 16°C / 19°C</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
